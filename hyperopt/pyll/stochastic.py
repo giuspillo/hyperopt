@@ -96,7 +96,7 @@ def randint(low, high=None, rng=None, size=()):
     See np.random.randint documentation.
     rng = random number generator, typically equals np.random.Generator
     """
-    return rng.integers(low, high, size)
+    return rng.randint(low, high, size)
 
 
 @implicit_stochastic
